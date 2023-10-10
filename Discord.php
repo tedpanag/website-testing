@@ -3,9 +3,7 @@
 Discord:
 </head>
 <body>
-    <h1>Tors</h1>
-    <p>https://discord.gg/2cEJkM8MNB</p>
-        <link rel="stylesheet" href="https://discord.gg/2cEJkM8MNB">
+    <h1><a href="url">Join Tors (discord) here! </a>/h1>
     <p></p>
     <p></p>
 </body>
