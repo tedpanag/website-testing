@@ -1,14 +1,36 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Simple Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>Tors</h1>
-    <p>https://discord.gg/2cEJkM8MNB</p>
-    <p></p>
-    <p></p>
-</body>
-</html>
+
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Home</h2>
+        <p>This is the home page of My Simple Website.</p>
+        <?php
+   // Example of using PHP to generate dynamic content
+   echo "<p>The current date and time is: " . date("Y-m-d H:i:s") . "</p>";
+  ?>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Simple Website</p>
+    </footer>
+    </body>
+    </html>
